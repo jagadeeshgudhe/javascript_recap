@@ -1,3 +1,5 @@
+/*
+
 //variables container that stores  value (variables names should be unique other wise it will through a error)
 
 //declaration let x;
@@ -79,6 +81,50 @@ document.getElementById("p3").textContent=`enrolled :${student}`    */
 4.addition , subtraction             */
 
 
-let result=1+2*3+4**2;
-console.log(result);
+//let result=1+2*3+4**2;
+//console.log(result);                
 
+
+
+// How to accept user input
+// 1, EASY WAY = window prompt ,
+// 2. PROFESSIONAL WAY = HTML textbox 
+
+//let username;
+//username=window.prompt("what is your username?");
+//console.log(username);
+
+/*
+let username;
+document.getElementById("mySubmit").onclick = function(){
+    username =document.getElementById("myText").value;
+    document.getElementById("myH1").textContent=`hello ${username}`
+} */
+
+
+
+// type conversion = change the datatype of a value to another (strings, numbers, booleans) 
+/*
+let x = "pizza";
+let y = "pizza";
+let z = "pizza";
+
+X = Number(x);
+y = String(y);
+Z = Boolean(z);
+
+console. log(x, typeof x)
+console.log(y, typeof y);
+console. log(z, typeof z);  */
+/*
+//constant - a variable that cant change the value
+
+  
+
+let pi = 3.141595;
+let radius;
+let circumference;
+radius = window.prompt('Enter the radius of a circle');
+radius = Number(radius);
+circumference = 2 * pi * radius;
+console.log(circumference) ;  */
