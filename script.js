@@ -128,3 +128,106 @@ radius = window.prompt('Enter the radius of a circle');
 radius = Number(radius);
 circumference = 2 * pi * radius;
 console.log(circumference) ;  */
+/*
+// IF statement - Executes a block of code based on a condition.
+let age = 18;
+if (age >= 18) {
+    console.log("You are eligible to vote.");
+} else {
+    console.log("You are not eligible to vote.");
+}
+
+
+// Ternary Operator - A shorthand for if-else statements that is written in a single line.
+let age = 20;
+let status = age >= 18 ? "Adult" : "Minor";
+console.log(status);
+
+
+
+// Switches - Executes different actions based on different conditions.
+let day = 3;
+switch (day) {
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("Wednesday");
+        break;
+    default:
+        console.log("Invalid day");
+}
+
+
+// String Methods - Methods for manipulating strings.
+let text = "hello world";
+console.log(text.toUpperCase());
+console.log(text.replace("world", "JavaScript"));
+
+
+// String Slicing - Extracts parts of a string using indices.
+let text = "hello world";
+console.log(text.substring(0, 5));
+console.log(text.slice(-5));
+
+
+// Method Chaining - Calls multiple methods on a single line.
+let text = "   hello world   ";
+let result = text.trim().toUpperCase().replace("HELLO", "HI");
+console.log(result);
+
+
+
+
+// Logical Operators - Combine conditions for complex logic.
+let x = 5;
+let y = 10;
+if (x > 0 && y > 0) console.log("Both are positive");
+if (x > 0 || y > 0) console.log("At least one is positive");
+if (!(x < 0)) console.log("x is not negative");
+
+---------------------------------------------------------------
+
+// Strict Equality - Checks if values and their types are the same.
+let a = 5;
+let b = '5';
+console.log(a === b); // false
+console.log(a == b);  // true
+
+
+
+// While Loops - Repeats a block of code while a condition is true.
+let i = 0;
+while (i < 5) {
+    console.log(i);
+    i++;
+}
+
+// For Loops - Loops through a block of code a set number of times.
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+}
+
+
+--------------------------
+
+// Functions - A block of code to be reused.
+function greet(name) {
+    return `Hello, ${name}!`;
+}
+console.log(greet("jagadeesh"));
+
+
+// Variable Scope - Determines where variables are accessible.
+function scopeExample() {
+    let localVar = "I'm local";
+    console.log(localVar);
+}
+scopeExample();
+
+
+
+
