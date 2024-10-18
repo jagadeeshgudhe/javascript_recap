@@ -115,12 +115,10 @@ Z = Boolean(z);
 
 console. log(x, typeof x)
 console.log(y, typeof y);
-console. log(z, typeof z);  */
-/*
+console. log(z, typeof z); 
+
+
 //constant - a variable that cant change the value
-
-  
-
 let pi = 3.141595;
 let radius;
 let circumference;
@@ -227,7 +225,7 @@ function scopeExample() {
     console.log(localVar);
 }
 scopeExample();
-
+                                                 */
 
 
 
